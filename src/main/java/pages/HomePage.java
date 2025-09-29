@@ -22,6 +22,8 @@ public class HomePage {
 	WebElement productClick;
 	
 	public void searchProduct(){
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		wait.until(ExpectedConditions.elementToBeClickable(searchIcon));
 		searchIcon.click();
 		searchBox.sendKeys("shoe",Keys.ENTER);
 	}
