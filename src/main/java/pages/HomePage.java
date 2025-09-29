@@ -11,7 +11,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class HomePage {
 	WebDriver driver;
-	@FindBy(linkText="Search")
+	@FindBy(xpath="//a[@class="search search-icon"]")
 	WebElement searchIcon;
 	
 	@FindBy(xpath="(//input[@type=\"search\"])[3]")
