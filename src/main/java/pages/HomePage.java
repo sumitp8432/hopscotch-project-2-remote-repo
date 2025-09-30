@@ -14,7 +14,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HomePage {
 	WebDriver driver;
-	@FindBy(xpath="//a[@class='search search-icon']")
+	@FindBy(xpath="//li[@class='nav-search-icon']")
 	WebElement searchIcon;
 	
 	@FindBy(xpath="(//input[@type=\"search\"])[3]")
