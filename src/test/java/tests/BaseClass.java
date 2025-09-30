@@ -13,7 +13,7 @@ public class BaseClass {
 	    @BeforeMethod(alwaysRun=true)
 	    public void setBrowser() throws InterruptedException {
 			driver= new ChromeDriver();
-	    	driver.get("https://www.hopscotch.in/");
+	    	driver.get("https://www.hopscotch.in");
 	    	driver.manage().window().maximize();
 	    	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	    	

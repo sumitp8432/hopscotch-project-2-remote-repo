@@ -1,5 +1,6 @@
 package pages;
 
+import java.time.Duration;
 import java.util.Iterator;
 import java.util.Set;
 
@@ -8,6 +9,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HomePage {
 	WebDriver driver;
@@ -21,9 +24,11 @@ public class HomePage {
 	@FindBy(xpath="(//img[@class=\"plp-image ng-isolate-scope\"])[2]")
 	WebElement productClick;
 	
-	public void searchProduct() throws InterruptedException{
-		Thread.sleep(3000);
+	public void searchProduct(){
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		wait.until(ExpectedConditions.elementToBeClickable(searchIcon));
 		searchIcon.click();
+		wait.until(ExpectedConditions.visibilityOf(searchBox));
 		searchBox.sendKeys("shoe",Keys.ENTER);
 	}
 	
@@ -32,6 +37,7 @@ public class HomePage {
 	}
 	
 	public void windowHandle() throws InterruptedException {
+	Thread.sleep(3000);
 	Set<String> e= driver.getWindowHandles();
 	Iterator<String> it =e.iterator();
 	String parentId = (String) it.next();
