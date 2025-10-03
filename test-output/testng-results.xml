@@ -14,7 +14,7 @@
       <![CDATA[Test Case Passed]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-09-30T00:00:51 IST" name="Regression Suite" finished-at="2025-09-30T00:02:26 IST" duration-ms="95385">
+  <suite started-at="2025-10-04T02:33:58 IST" name="Regression Suite" finished-at="2025-10-04T02:35:34 IST" duration-ms="95987">
     <groups>
       <group name="smoke">
         <method signature="SearchProduct.productMethod()[pri:0, instance:tests.SearchProduct@59474f18]" name="productMethod" class="tests.SearchProduct"/>
@@ -25,71 +25,71 @@
         <method signature="ProceedToCheckout.proceedCheckout()[pri:0, instance:tests.ProceedToCheckout@6025e1b6]" name="proceedCheckout" class="tests.ProceedToCheckout"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2025-09-30T00:00:51 IST" name="Test" finished-at="2025-09-30T00:02:26 IST" duration-ms="95385">
+    <test started-at="2025-10-04T02:33:58 IST" name="Test" finished-at="2025-10-04T02:35:34 IST" duration-ms="95987">
       <class name="tests.ProceedToCheckout">
-        <test-method is-config="true" signature="setBrowser()[pri:0, instance:tests.ProceedToCheckout@6025e1b6]" started-at="2025-09-30T00:01:26 IST" name="setBrowser" finished-at="2025-09-30T00:01:29 IST" duration-ms="3500" status="PASS">
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:tests.ProceedToCheckout@6025e1b6]" started-at="2025-10-04T02:34:34 IST" name="setBrowser" finished-at="2025-10-04T02:34:38 IST" duration-ms="4212" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="proceedCheckout()[pri:0, instance:tests.ProceedToCheckout@6025e1b6]" started-at="2025-09-30T00:01:29 IST" name="proceedCheckout" finished-at="2025-09-30T00:01:50 IST" duration-ms="20901" status="PASS">
+        <test-method signature="proceedCheckout()[pri:0, instance:tests.ProceedToCheckout@6025e1b6]" started-at="2025-10-04T02:34:38 IST" name="proceedCheckout" finished-at="2025-10-04T02:34:59 IST" duration-ms="21044" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Passed]]>
             </line>
           </reporter-output>
         </test-method> <!-- proceedCheckout -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:tests.ProceedToCheckout@6025e1b6]" started-at="2025-09-30T00:01:50 IST" name="quitBrowser" finished-at="2025-09-30T00:01:55 IST" duration-ms="4932" status="PASS">
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:tests.ProceedToCheckout@6025e1b6]" started-at="2025-10-04T02:34:59 IST" name="quitBrowser" finished-at="2025-10-04T02:35:03 IST" duration-ms="3290" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->
       </class> <!-- tests.ProceedToCheckout -->
       <class name="tests.EnterMobile">
-        <test-method is-config="true" signature="setBrowser()[pri:0, instance:tests.EnterMobile@22ff4249]" started-at="2025-09-30T00:01:55 IST" name="setBrowser" finished-at="2025-09-30T00:02:00 IST" duration-ms="5412" status="PASS">
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:tests.EnterMobile@22ff4249]" started-at="2025-10-04T02:35:03 IST" name="setBrowser" finished-at="2025-10-04T02:35:06 IST" duration-ms="3622" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="proceedForMobileNo()[pri:0, instance:tests.EnterMobile@22ff4249]" started-at="2025-09-30T00:02:00 IST" name="proceedForMobileNo" finished-at="2025-09-30T00:02:23 IST" duration-ms="22586" status="PASS">
+        <test-method signature="proceedForMobileNo()[pri:0, instance:tests.EnterMobile@22ff4249]" started-at="2025-10-04T02:35:06 IST" name="proceedForMobileNo" finished-at="2025-10-04T02:35:31 IST" duration-ms="24295" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Passed]]>
             </line>
           </reporter-output>
         </test-method> <!-- proceedForMobileNo -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:tests.EnterMobile@22ff4249]" started-at="2025-09-30T00:02:23 IST" name="quitBrowser" finished-at="2025-09-30T00:02:26 IST" duration-ms="3347" status="PASS">
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:tests.EnterMobile@22ff4249]" started-at="2025-10-04T02:35:31 IST" name="quitBrowser" finished-at="2025-10-04T02:35:34 IST" duration-ms="3255" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->
       </class> <!-- tests.EnterMobile -->
       <class name="tests.SearchProduct">
-        <test-method is-config="true" signature="setBrowser()[pri:0, instance:tests.SearchProduct@59474f18]" started-at="2025-09-30T00:00:51 IST" name="setBrowser" finished-at="2025-09-30T00:00:57 IST" duration-ms="5610" status="PASS">
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:tests.SearchProduct@59474f18]" started-at="2025-10-04T02:33:58 IST" name="setBrowser" finished-at="2025-10-04T02:34:03 IST" duration-ms="4973" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="productMethod()[pri:0, instance:tests.SearchProduct@59474f18]" started-at="2025-09-30T00:00:57 IST" name="productMethod" finished-at="2025-09-30T00:00:58 IST" duration-ms="1298" status="PASS">
+        <test-method signature="productMethod()[pri:0, instance:tests.SearchProduct@59474f18]" started-at="2025-10-04T02:34:03 IST" name="productMethod" finished-at="2025-10-04T02:34:04 IST" duration-ms="1220" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Passed]]>
             </line>
           </reporter-output>
         </test-method> <!-- productMethod -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:tests.SearchProduct@59474f18]" started-at="2025-09-30T00:00:58 IST" name="quitBrowser" finished-at="2025-09-30T00:01:01 IST" duration-ms="3448" status="PASS">
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:tests.SearchProduct@59474f18]" started-at="2025-10-04T02:34:04 IST" name="quitBrowser" finished-at="2025-10-04T02:34:08 IST" duration-ms="3408" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->
       </class> <!-- tests.SearchProduct -->
       <class name="tests.EnterPin">
-        <test-method is-config="true" signature="setBrowser()[pri:0, instance:tests.EnterPin@40a4337a]" started-at="2025-09-30T00:01:01 IST" name="setBrowser" finished-at="2025-09-30T00:01:05 IST" duration-ms="3728" status="PASS">
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:tests.EnterPin@40a4337a]" started-at="2025-10-04T02:34:08 IST" name="setBrowser" finished-at="2025-10-04T02:34:13 IST" duration-ms="5873" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="enterPinMethod()[pri:0, instance:tests.EnterPin@40a4337a]" started-at="2025-09-30T00:01:05 IST" name="enterPinMethod" finished-at="2025-09-30T00:01:22 IST" duration-ms="17064" status="PASS">
+        <test-method signature="enterPinMethod()[pri:0, instance:tests.EnterPin@40a4337a]" started-at="2025-10-04T02:34:13 IST" name="enterPinMethod" finished-at="2025-10-04T02:34:31 IST" duration-ms="17401" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Passed]]>
             </line>
           </reporter-output>
         </test-method> <!-- enterPinMethod -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:tests.EnterPin@40a4337a]" started-at="2025-09-30T00:01:22 IST" name="quitBrowser" finished-at="2025-09-30T00:01:26 IST" duration-ms="3425" status="PASS">
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:tests.EnterPin@40a4337a]" started-at="2025-10-04T02:34:31 IST" name="quitBrowser" finished-at="2025-10-04T02:34:34 IST" duration-ms="3265" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->

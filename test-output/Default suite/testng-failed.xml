@@ -5,7 +5,7 @@
     <classes>
       <class name="tests.EnterMobile">
         <methods>
-          <include name="tearDown"/>
+          <include name="quitBrowser"/>
           <include name="setBrowser"/>
           <include name="proceedForMobileNo"/>
         </methods>

@@ -19,7 +19,7 @@ public class EnterPin extends BaseClass{
     	
     	ProductPage p= new ProductPage(driver);	
     	String url= driver.getCurrentUrl();
-    	Assert.assertEquals(url, "https://www.hopscotch.in/product/1264420/unisex-black-graphic-print-athletic-shoes");
+    	Assert.assertEquals(url, "https://www.hopscotch.in/product/1299134/unisex-black-90094_black_22");
     	p.enterPincode();
     	p.addToCart();
     	

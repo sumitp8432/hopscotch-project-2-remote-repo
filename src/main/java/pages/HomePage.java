@@ -4,6 +4,8 @@ import java.time.Duration;
 import java.util.Iterator;
 import java.util.Set;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -14,21 +16,18 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HomePage {
 	WebDriver driver;
-	@FindBy(xpath="//li[@class='nav-search-icon']")
+	
+	@FindBy(css="a.search.search-icon")
 	WebElement searchIcon;
 	
-	@FindBy(xpath="(//input[@type=\"search\"])[3]")
+	@FindBy(xpath="(//input[@placeholder='Search for products'])[3]")
 	WebElement searchBox;
 	
-	
-	@FindBy(xpath="(//img[@class=\"plp-image ng-isolate-scope\"])[2]")
+	@FindBy(xpath="(//img[@class=\"plp-image ng-isolate-scope\"])[1]")
 	WebElement productClick;
 	
 	public void searchProduct(){
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		wait.until(ExpectedConditions.elementToBeClickable(searchIcon));
 		searchIcon.click();
-		wait.until(ExpectedConditions.visibilityOf(searchBox));
 		searchBox.sendKeys("shoe",Keys.ENTER);
 	}
 	

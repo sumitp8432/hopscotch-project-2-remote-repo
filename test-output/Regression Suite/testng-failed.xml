@@ -3,13 +3,20 @@
 <suite name="Failed suite [Regression Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="tests.EnterPin">
+      <class name="tests.ProceedToCheckout">
         <methods>
           <include name="quitBrowser"/>
           <include name="setBrowser"/>
-          <include name="enterPinMethod"/>
+          <include name="proceedCheckout"/>
         </methods>
-      </class> <!-- tests.EnterPin -->
+      </class> <!-- tests.ProceedToCheckout -->
+      <class name="tests.EnterMobile">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="setBrowser"/>
+          <include name="proceedForMobileNo"/>
+        </methods>
+      </class> <!-- tests.EnterMobile -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Regression Suite] -->
